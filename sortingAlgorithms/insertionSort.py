@@ -13,6 +13,7 @@ def main():
     print('unsorted: ' + str(vector))
     insertionSort(vector)
     print('sorted: ' + str(vector))
+
 # A simple insertion sort
 def insertionSort(vet):
     if(len(vet) <= 1): # Checks if it's necessary to order the vector
@@ -28,4 +29,6 @@ def insertionSort(vet):
         vet.insert(newPos + 1, vet.pop(sorting))
         sorting += 1
 
-main()
+# Calls main
+if __name__ == '__main__':
+    main()
