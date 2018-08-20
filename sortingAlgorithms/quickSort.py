@@ -35,4 +35,5 @@ def quickSort(vec, begin, end):
     quickSort(vec, begin, storeIndex-1)
     quickSort(vec, storeIndex, end)
 
-main()
+if __name__ == '__main__':
+    main()
