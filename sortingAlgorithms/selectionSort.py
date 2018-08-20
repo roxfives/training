@@ -40,4 +40,5 @@ def selectionSort(vet):
         i += 1
 
 # Calls main
-main()
+if __name__ == '__main__':
+    main()
